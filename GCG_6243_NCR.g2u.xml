@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SyntaxEdit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BorderStyle>None</BorderStyle>
+  <Pages>
+    <DefaultPage>
+      <Header>
+        <Offset>
+          <X>0</X>
+          <Y>0</Y>
+        </Offset>
+      </Header>
+      <Footer>
+        <Offset>
+          <X>0</X>
+          <Y>0</Y>
+        </Offset>
+      </Footer>
+      <PageSize>
+        <Width>0</Width>
+        <Height>0</Height>
+      </PageSize>
+    </DefaultPage>
+  </Pages>
+  <DisplayStrings />
+  <Selection>
+    <SelectionRect>
+      <Location>
+        <X>0</X>
+        <Y>97</Y>
+      </Location>
+      <Size>
+        <Width>24</Width>
+        <Height>2</Height>
+      </Size>
+      <X>0</X>
+      <Y>97</Y>
+      <Width>24</Width>
+      <Height>2</Height>
+    </SelectionRect>
+    <Options>UseColors OverwriteBlocks SelectLineOnTripleClick CopyLineWhenEmpty SelectWordOnCtrlClick</Options>
+  </Selection>
+  <Gutter>
+    <LineNumbersForeColor>WindowText</LineNumbersForeColor>
+    <Options>PaintLineNumbers PaintBookMarks PaintLineModificators</Options>
+  </Gutter>
+  <Margin>
+    <Visible>false</Visible>
+  </Margin>
+  <LineStyles />
+  <LineSeparator />
+  <Printing>
+    <Footer>
+      <Offset>
+        <X>0</X>
+        <Y>0</Y>
+      </Offset>
+    </Footer>
+    <Header>
+      <Offset>
+        <X>0</X>
+        <Y>0</Y>
+      </Offset>
+    </Header>
+  </Printing>
+  <WhiteSpace />
+  <TextSource>
+    <Position>
+      <X>0</X>
+      <Y>97</Y>
+    </Position>
+    <Lexer>
+      <Scheme>
+        <Author>Quantum Whale, LLC.</Author>
+        <Copyright>Copyright (c) 2004 - 2014 Quantum Whale LLC.</Copyright>
+        <FileType>gas</FileType>
+        <Version>1.5</Version>
+        <Styles>
+          <Style>
+            <Name>idents</Name>
+            <ForeColor>ControlText</ForeColor>
+          </Style>
+          <Style>
+            <Name>numbers</Name>
+            <ForeColor>ControlText</ForeColor>
+          </Style>
+          <Style>
+            <Name>reswords</Name>
+            <ForeColor>Blue</ForeColor>
+          </Style>
+          <Style>
+            <Name>comments</Name>
+            <ForeColor>Green</ForeColor>
+            <PlainText>true</PlainText>
+          </Style>
+          <Style>
+            <Name>xmlcomments</Name>
+            <ForeColor>Gray</ForeColor>
+          </Style>
+          <Style>
+            <Name>symbols</Name>
+            <ForeColor>WindowText</ForeColor>
+          </Style>
+          <Style>
+            <Name>whitespace</Name>
+            <ForeColor>WindowText</ForeColor>
+          </Style>
+          <Style>
+            <Name>strings</Name>
+            <ForeColor>Maroon</ForeColor>
+            <PlainText>true</PlainText>
+          </Style>
+          <Style>
+            <Name>directives</Name>
+            <ForeColor>Blue</ForeColor>
+          </Style>
+          <Style>
+            <Name>htmlparams</Name>
+            <ForeColor>Red</ForeColor>
+          </Style>
+          <Style>
+            <Name>syntax errors</Name>
+            <ForeColor>Red</ForeColor>
+          </Style>
+          <Style>
+            <Name>codes nippets</Name>
+            <ForeColor>Black</ForeColor>
+            <BackColor>255:180:228:180</BackColor>
+          </Style>
+          <Style>
+            <Name>GabReservedWords</Name>
+            <ForeColor>Blue</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabTokenWithBrackets</Name>
+            <ForeColor>Gray</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabFunctionIntrinsicDebug</Name>
+            <ForeColor>White</ForeColor>
+            <BackColor>Red</BackColor>
+            <FontStyle>Bold</FontStyle>
+            <PlainText>true</PlainText>
+          </Style>
+          <Style>
+            <Name>GabVariable</Name>
+            <ForeColor>Teal</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabVariableSystemDefined</Name>
+            <ForeColor>Teal</ForeColor>
+            <FontStyle>Bold Italic</FontStyle>
+          </Style>
+          <Style>
+            <Name>GabGui</Name>
+            <ForeColor>OrangeRed</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabProgramSubStartEnd</Name>
+            <ForeColor>Black</ForeColor>
+            <BackColor>LightGray</BackColor>
+            <FontStyle>Bold</FontStyle>
+            <PlainText>true</PlainText>
+          </Style>
+        </Styles>
+      </Scheme>
+    </Lexer>
+    <TextStrings>
+      <Lines>
+        <string>Program.Sub.ScreenSU.Start</string>
+        <string>Program.Sub.ScreenSU.End</string>
+        <string />
+        <string>Program.Sub.Preflight.Start</string>
+        <string>Program.Sub.Preflight.End</string>
+        <string />
+        <string>Program.Sub.Main.Start</string>
+        <string>Variable.Local.sUserGroups.Declare(String)</string>
+        <string>Variable.Local.bChk.Declare(Boolean)</string>
+        <string />
+        <string />
+        <string>Variable.passed.000098.set("Problem Stmt")</string>
+        <string />
+        <string>F.Intrinsic.Control.If(V.Caller.Hook,=,28901)</string>
+        <string>	Variable.passed.000098.set("Problem Stmt")</string>
+        <string>F.Intrinsic.Control.ElseIf(V.Caller.Hook,=,28910)</string>
+        <string>	F.Intrinsic.Control.CallSub(SubGetJobComments)</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.Main.End</string>
+        <string />
+        <string>Program.Sub.SubGetJobComments.Start</string>
+        <string>v.Local.sSql.Declare(String)</string>
+        <string>v.Local.sUSql.Declare(String)</string>
+        <string>v.Local.sJob.Declare(String)</string>
+        <string>v.Local.sSuffix.Declare(String)</string>
+        <string>v.Local.sSeq.Declare(String)</string>
+        <string>v.Local.sQDate.Declare(String)</string>
+        <string>v.Local.sQdateYY.Declare(string)</string>
+        <string>v.Local.sQdateMMDD.Declare(string)</string>
+        <string>v.Local.sQDateReformat.Declare(String)</string>
+        <string>v.Local.sQtlNo.Declare(String)</string>
+        <string>v.Local.sJobComment.Declare(String)</string>
+        <string>v.Local.sQCommExist.Declare(String,"N")</string>
+        <string>v.Local.sJDCommExist.Declare(String,"N")</string>
+        <string />
+        <string>v.Local.sJob.Set(v.Passed.000022)</string>
+        <string>v.Local.sQtlNo.Set(v.passed.000002)</string>
+        <string>v.Local.sSuffix.Set(v.Passed.000037)</string>
+        <string>v.Local.sSeq.Set(v.Passed.000051)</string>
+        <string>v.Local.sQDate.Set(v.Passed.000011)</string>
+        <string />
+        <string>f.Intrinsic.String.LPad(v.Local.sSeq,"0",6,v.Local.sSeq)</string>
+        <string>f.Intrinsic.String.LPad(v.Local.sQtlNo,"0",7,v.Local.sQtlNo)</string>
+        <string />
+        <string>f.Intrinsic.String.Right(v.Local.sQDate,2,v.Local.sQdateYY)</string>
+        <string>f.Intrinsic.String.Left(v.Local.sQDate,4,v.Local.sQdateMMDD)</string>
+        <string>f.Intrinsic.String.Concat(v.Local.sQdateYY, v.Local.sQdateMMDD, v.Local.sQDateReformat)</string>
+        <string />
+        <string>Function.Odbc.Connection!Conx.Openconnection(Variable.Ambient.pDSN,Variable.Ambient.PUser,Variable.Ambient.PPass)</string>
+        <string />
+        <string>'Build sql query to retrieve job comments</string>
+        <string>v.local.ssql.set("select text from JOB_DTL_NOTES where job = '{0}' and suffix = '{1}' and job_seq = '{2}' and date = '{3}' order by seq")</string>
+        <string>f.Intrinsic.String.Build(v.Local.sSql,v.Local.sJob,v.Local.sSuffix,v.Local.sSeq,v.Local.sQDateReformat,v.Local.sSql)</string>
+        <string />
+        <string>'Read Job Detail for work order comments.  If any are found set Job Detail comment flag to Y</string>
+        <string>F.ODBC.Connection!conX.OpenRecordsetRO("rstJComment",V.Local.sSql)</string>
+        <string>	F.Intrinsic.Control.If(V.Odbc.ConX!rstJComment.EOF,=,True)</string>
+        <string>		F.odbc.conx!rstJComment.close</string>
+        <string>	F.Intrinsic.Control.Else</string>
+        <string>		v.Local.sJobComment.set(V.ODBC.ConX!rstJComment.fieldval!text)</string>
+        <string>		v.Local.sJDCommExist.Set("Y")</string>
+        <string>		F.odbc.conx!rstJComment.close</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>'Build SQL Query to retrieve quality record comments</string>
+        <string>v.Local.sSql.Set("select text from QUAL_HDR_NOTES where control_number = '{0}'")</string>
+        <string>f.Intrinsic.String.Build(v.Local.sSql,v.Local.sQtlNo,v.Local.sSql)</string>
+        <string>	</string>
+        <string>'Read Quality file and see if the note has been populated, if not set Qual Comment to Y	</string>
+        <string>	F.ODBC.Connection!conX.OpenRecordsetRO("rstQComment",V.Local.sSql)</string>
+        <string>	F.Intrinsic.Control.If(V.Odbc.ConX!rstQComment.EOF,=,True)</string>
+        <string>		F.odbc.conx!rstQComment.close</string>
+        <string>	F.Intrinsic.Control.Else</string>
+        <string>		v.Local.sQCommExist.Set("Y")</string>
+        <string>		F.odbc.conx!rstQComment.close</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string>	</string>
+        <string>f.Intrinsic.Control.If(v.Local.sJDCommExist,"=","Y")</string>
+        <string>	f.Intrinsic.Control.If(v.Local.sQCommExist,"=","N")</string>
+        <string>		v.Local.sUSql.Set("insert into qual_hdr_notes (control_number, text) values('{0}', '{1}')")</string>
+        <string>		f.Intrinsic.String.Build(v.Local.sUSql,v.Local.sQtlNo,v.Local.sJobComment,v.Local.suSql)</string>
+        <string>		v.Local.sSql.Set("Select * from qual_hdr_notes where control_number = '{0}'")</string>
+        <string>		f.Intrinsic.String.Build(v.Local.sSql,v.Local.sQtlNo,v.Local.sSql)</string>
+        <string>			'Insert quality comment from job detail into quality text</string>
+        <string>			F.ODBC.Connection!conX.OpenRecordsetRw("rstQual",V.Local.sSql)</string>
+        <string>				F.Intrinsic.Control.If(V.Odbc.conX!rstQual.EOF,=,True)</string>
+        <string>					F.ODBC.Connection!ConX.Execute(V.Local.sUSql)</string>
+        <string>					F.odbc.conx!rstQual.close</string>
+        <string>				F.Intrinsic.Control.Else</string>
+        <string>		 			F.odbc.conx!rstQual.close</string>
+        <string>			F.Intrinsic.Control.EndIf</string>
+        <string>	f.Intrinsic.Control.endif</string>
+        <string>f.Intrinsic.Control.endif</string>
+        <string>Program.Sub.SubGetJobComments.End</string>
+        <string />
+        <string>Program.Sub.Comments.Start</string>
+        <string>${$0$}$$}$$}$12:00:00 AM$}$False</string>
+        <string>Program.Sub.Comments.End</string>
+      </Lines>
+    </TextStrings>
+  </TextSource>
+  <Scrolling>
+    <WindowOriginY>55</WindowOriginY>
+    <Options>None</Options>
+  </Scrolling>
+  <Outlining>
+    <AllowOutlining>true</AllowOutlining>
+    <ImageSize>8</ImageSize>
+    <Ranges>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>0</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1</Y>
+        </EndPoint>
+        <Text>Program.Sub.ScreenSU</Text>
+        <DisplayText>Program.Sub.ScreenSU</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>3</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>4</Y>
+        </EndPoint>
+        <Text>Program.Sub.Preflight</Text>
+        <DisplayText>Program.Sub.Preflight</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>6</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>20</Y>
+        </EndPoint>
+        <Text>Program.Sub.Main</Text>
+        <DisplayText>Program.Sub.Main</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>22</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>95</Y>
+        </EndPoint>
+        <Text>Program.Sub.SubGetJobComments</Text>
+        <DisplayText>Program.Sub.SubGetJobComments</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>97</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>99</Y>
+        </EndPoint>
+        <Text>Program.Sub.Comments</Text>
+        <DisplayText>Program.Sub.Comments</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+    </Ranges>
+  </Outlining>
+  <HyperText />
+  <Spelling />
+  <Braces />
+</SyntaxEdit>
